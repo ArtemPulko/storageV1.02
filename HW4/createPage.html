@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/ForElements.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id ="mainDiv">
+        <label><strong>Новое растение</strong></label>
+        <div>
+            <lanel>Название</label>
+            <select id = "namePlant">
+                <option>Папоротник </option>
+                <option>Ель обыкновенная</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Описание</label>
+            <input type="text" id = "description" required>
+        </div>
+        
+        <div>
+            <label>Вид</label>
+            <input type="text" id="view" required>
+        </div>
+        <div>
+            <label>Возраст</label>
+            <input type="number" id="age" required>
+        </div>
+        <div>
+            <label>Класс</label>
+            <input type="text" id="class" required>
+        </div>
+        <div>
+            <label>Размер соцветия</label>
+            <input type="number" id="inflorescenceSize" required>
+        </div>
+        <div>
+            <label>Ареал произрастания</label>
+            <input type="text" id="AreaOfGrowth" required>
+        </div>
+        <div>
+            <label>Область применения</label>
+            <select id="ScopeOfApplication">
+                <option>Пищевая промышленность </option>
+                <option>Получение лекарственных препаратов</option>
+                <option>Сльское хозяйство </option>
+            </select>
+        </div>
+        <div>
+            <button id="saveInfo">Сохранить</button>
+        </div>
+
+    </div>
+    <script src = "script/forclass/Plants.js"></script>
+    <script src = "script/forclass/Fern.js"></script>
+    <script src = "script/forclass/Fir.js"></script>
+    <script src = "script/save.js"></script>
+    <script src = "script/clear.js"></script>
+</body>
+</html>
